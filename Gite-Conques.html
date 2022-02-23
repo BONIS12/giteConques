@@ -1,0 +1,141 @@
+<html>
+    <head>
+        <meta name="viewport" content="initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Libre+Caslon+Text&display=swap" rel="stylesheet">
+        <title>Gîte de Conques</title>
+    </head>
+    <style>
+    
+
+body{
+    margin:0px;
+    font-family: 'Libre Caslon Text', serif;
+}
+
+.header{
+    display:flex;
+    flex-direction: row;
+    justify-content:space-around;
+    font-size: 24px;
+    text-align: center;
+    height: 20vh;
+ }
+ 
+
+.gite1, .gite2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button{
+    background-color:lightgrey;
+    color:black;
+    height: 35px;
+    width: 90px;
+    border-radius: 10px;
+}
+
+.box1{
+    background-color:  #f2d9e6;
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+    margin:20px;
+}
+.box2{
+    background-color:  #f2d9e6;
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+    margin:20px;
+}
+
+.container{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+@media screen and (max-width:1048px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    } 
+    .logo{
+        display: none;
+    }
+
+    h1{
+        font-size: 32px;
+    }
+    .footer{
+        display:flex;
+        flex-direction:column;
+        align-items: center;
+    }
+        
+  }
+
+.footer{
+        font-family: 'Cookie', cursive; 
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+ }
+
+ .logo{
+     border: 3px solid black;
+
+ }
+
+      </style>
+
+<body class="body">
+    <div class="header">
+      <div class="logo">
+         <img src="./logo gîte.png" alt="logo du gîte" height="145px" width="200px"/>
+      </div>
+       <div>
+          <h1>Gîte "Les hauts de Conques" </h1>
+      </div>
+    </div>
+    <div class="container">
+
+        <div class="gite1">
+        <div class="box1"></div>
+        <button type="button">les Genêts</button>
+        </div>
+
+        <div class="gite2">
+        <div class="box2"></div>
+        <button type="button">les Bruyères</button>
+        </div>
+
+    </div>
+    <div class="footer">
+        <div class="adresse1">
+            <h2>Adresse postale:</h2>
+             <p>Hameau de Bennac</p>
+             <p>12330 Salles la Source</p>
+        </div>
+         
+        <div class="adresse2">
+            <h2>Adresse mail:</h2>
+            <p>jean-luc.bonis@wanadoo.fr</p>
+        </div>
+
+        <div class="adresse3">
+            <h2>Téléphone :</h2>
+            <p>06-56-78-14-28</p>
+        </div>
+    </div>
+   
+</body>
+ </html>
